@@ -1010,6 +1010,11 @@ $endif$
 % Remember to cut it out later before bib
 $body$
 
+$if(endnotes)$
+\newpage
+\theendnotes
+$endif$
+
 $if(has-frontmatter)$
 \backmatter
 $endif$
